@@ -1,0 +1,4 @@
+mode,best_val_acc,epoch_90,training_time
+feature,0.95,6,1005.0271594524384
+partial,1.0,1,1269.2232768535614
+scratch,0.95,6,1570.0645234584808
