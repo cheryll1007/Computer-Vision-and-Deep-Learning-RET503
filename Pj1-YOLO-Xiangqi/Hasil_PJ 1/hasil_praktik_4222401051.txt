@@ -1,0 +1,17 @@
+==============================================================================
+  PRAKTIK TERPADU MINGGU 4-7 - RET503
+==============================================================================
+  NIM / Nama    : 4222401051 / Cheryll Hattie Wright Sianipar
+  Waktu         : 25-10-2026 05:55:03
+  Komputer/user : 97f08666d1a4 / root
+  Dataset       : /content/xiangqi_dataset  (sidik jari label: E3B0C44298FC)
+  Pengaturan    : model yolov8n, epochs 30, imgsz 416, batch 16
+==============================================================================
+  Eksperimen     Perubahan        mAP50  mAP50-95      P      R     ms   menit
+  E1_pretrained  -                0.995     0.968  0.999  0.998    3.1    26.0
+  E2_scratch     -                0.992     0.923  0.977  0.976    2.5    25.5
+  E3_tuning      imgsz=640        0.995     0.979  1.000  0.999    5.1    31.0
+==============================================================================
+  Model terpilih (mAP50-95 val tertinggi): E3_tuning
+  Hasil di data TEST (sekali saja)       : mAP50 0.995 | mAP50-95 0.972
+==============================================================================
